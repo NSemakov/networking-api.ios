@@ -9,7 +9,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A5AF13DA-EA47-44DA-89B4-821C4A71DC5D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "645548E0F822888CCF6909F3C64C66DA5F1873FB" : "networking-api.ios\/",
+    "645548E0F822888CCF6909F3C64C66DA5F1873FB" : "NetworkingAPI\/",
     "D3DCC61CCE2A4A9E8C17E034841A51ED75679C13" : "swift-commons.ios\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "NetworkingApi",

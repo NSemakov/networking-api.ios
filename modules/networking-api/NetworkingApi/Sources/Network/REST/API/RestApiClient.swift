@@ -41,6 +41,10 @@ public final class RestApiClient
     public func delete(entity: RequestEntity<HttpBody>) -> HttpResult {
         return execute(.DELETE, entity: entity)
     }
+    
+    public func patch(entity: RequestEntity<HttpBody>) -> HttpResult {
+        return execute(.PATCH, entity: entity)
+    }
 
 // MARK: - Private Functions
 

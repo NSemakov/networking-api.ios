@@ -13,7 +13,7 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   NetworkingApi:
-    :path: "../../"
+    :path: ../../
   SwiftCommons:
     :git: https://github.com/roxiemobile/swift-commons.ios.git
     :tag: 0.2.0
@@ -31,4 +31,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 12175ddb0db4290cef1bdaf3bc3c39a0e199d687
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0
