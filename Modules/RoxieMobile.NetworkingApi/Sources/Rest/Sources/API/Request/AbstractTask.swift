@@ -50,6 +50,13 @@ open class AbstractTask<Ti: HttpBody, To>: Task<Ti, To>, Cancellable
         return AbstractTaskInner.HttpClientConfig
     }
 
+    /**
+     * The rest api client.
+     */
+    open func getClient() -> RestApiClient? {
+        return self.client
+    }
+
 // MARK: - Methods
 
     /**
@@ -151,7 +158,9 @@ open class AbstractTask<Ti: HttpBody, To>: Task<Ti, To>, Cancellable
                 .networkInterceptors(config.networkInterceptors())
 
         // Done
-        return builder.build()
+        let client = builder.build()
+        self.client = client
+        return client
     }
 
     open func newRequestEntity(_ route: HttpRoute) -> RequestEntity<HttpBody>
@@ -249,6 +258,8 @@ open class AbstractTask<Ti: HttpBody, To>: Task<Ti, To>, Cancellable
     fileprivate let requestEntity: RequestEntity<Ti>
 
     fileprivate let cancelled = Atomic<Bool>(false)
+
+    fileprivate var client: RestApiClient?
 
 }
 

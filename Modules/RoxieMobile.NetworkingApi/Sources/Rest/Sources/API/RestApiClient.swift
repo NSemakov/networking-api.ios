@@ -56,6 +56,10 @@ public final class RestApiClient
         return execute(.options, entity: entity)
     }
 
+    public func getUrlRequest() -> URLRequest? {
+        return self.urlRequest
+    }
+
 // MARK: - Private Functions
 
     fileprivate func execute(_ method: HTTPMethod, entity: RequestEntity<HttpBody>) -> HttpResult
@@ -65,6 +69,7 @@ public final class RestApiClient
 
         // Create HTTP request
         let urlRequest = newRequest(method, entity: entity)
+        self.urlRequest = urlRequest
 
         do {
             // Execute HTTP request
@@ -217,6 +222,8 @@ public final class RestApiClient
 // MARK: - Variables
 
     fileprivate let options: Options
+
+    fileprivate var urlRequest: URLRequest?
 
 }
 

@@ -63,15 +63,15 @@ SPEC CHECKSUMS:
   Alamofire-SCF: 925de2f1ce8f950b362ff9dc83675ab63c1eef32
   CryptoSwift-SCF: a9c0686544450d97e6c5e13b7172ea3d677aaf9a
   Dispatch-SCF: 260f244bfae3213f83e77cb99b275cefa4c3ba62
-  SwiftCommons-SCF: 296b578ad998ea4f663c5ba29eeba99de58d6df6
-  SwiftCommonsAbstractions-SCF: 46b22b356a89d209b870b89f60af81e5ff1453db
-  SwiftCommonsConcurrent-SCF: 1aad1612b52763223788811d4d800b6a2fcdff71
-  SwiftCommonsData-SCF: e1773b8dd8582ea1cb9a9e9b1a26041479f9b61c
-  SwiftCommonsDiagnostics-SCF: 2007b81efdf6c44c5dd66b2a4ca583c26a98d9ae
-  SwiftCommonsExtensions-SCF: de64c056d9d6329f98d3e5ae2d00dd863b7f1bda
-  SwiftCommonsLang-SCF: 5eeba5735f230f2ca760c37af89f876b85167398
-  SwiftCommonsLogging-SCF: 63dd478baae57be6fa7eba6aadf771f01c12659a
-  SwiftCommonsObjC-SCF: c02a18b1d3fa51ba1a2a94a2c4621c9660d57d40
+  SwiftCommons-SCF: 9042d783e58ffaf47e1c489b6b05d269416a34c4
+  SwiftCommonsAbstractions-SCF: ebf60db130413ba710516d32ba03efc528a0a3f8
+  SwiftCommonsConcurrent-SCF: 2751f0e3853b83f6e994c3974f331aefcfc1074d
+  SwiftCommonsData-SCF: a6aeae619cf9803028ff908fbc78b2912c75d2b1
+  SwiftCommonsDiagnostics-SCF: 7f85994cc5393461c97333085e87faed15a69323
+  SwiftCommonsExtensions-SCF: fd2408d91503128b4f2523596c3025c116be42a9
+  SwiftCommonsLang-SCF: 64283622f23f401fa075353bdabfe09c6e4c8ddf
+  SwiftCommonsLogging-SCF: 811154c79323044d64fcf866829fd0b72f2ff8a6
+  SwiftCommonsObjC-SCF: 86f06a4198db77460cad50fe6db2f5c53c4d88ea
   SwiftyJSON-SCF: 2bb4daea8dba562b375d2507ebb9dfca91d464ef
 
 PODFILE CHECKSUM: 517373227de9987333333b166bb2daba69348242
