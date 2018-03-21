@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.version               = '1.1.2'
 
   s.platform              = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.cocoapods_version     = '>= 1.4.0.beta.2'
   s.static_framework      = true
