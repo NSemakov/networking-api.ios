@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'Alamofire', '~> 4.6.0'
   s.dependency 'NetworkingApiHelpers', s.version.to_s
   s.dependency 'NetworkingApiObjC', s.version.to_s
-  s.dependency 'SwiftCommons/Data', '~> 1.1.0'
+  s.dependency 'SwiftCommons/Data', '~> 1.2.2'
   s.dependency 'SwiftyJSON', '~> 4.0.0'
 end
