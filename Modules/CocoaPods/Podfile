@@ -1,7 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/roxiemobile/static-cocoa-frameworks.ios.git'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
+
+
+TAG_SWIFTCOMMONS = '1.2.2'
 
 workspace '../RoxieMobile.NetworkingApi/NetworkingApi.xcworkspace'
 
@@ -12,13 +16,25 @@ end
 
 def inject_shared_dependencies_1
   pod_from 'SwiftyJSON', '~> 4.0.0'
-  pod_from 'SwiftCommons/Data', '~> 1.1.0'
+  #pod_from 'SwiftCommons/Data', '~> 1.1.0'
+  inject_shared_swift_commons
 end
 
 def inject_shared_dependencies_2
   pod_from 'Alamofire', '~> 4.6.0'
 end
 
+def inject_shared_swift_commons
+  pod 'SwiftCommonsConcurrent', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsDiagnostics', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsObjC', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsExtensions', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsLang', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsLogging', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsAbstractions', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommonsData', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+  pod 'SwiftCommons', git: 'https://github.com/roxiemobile/swift-commons.ios', tag: TAG_SWIFTCOMMONS, inhibit_warnings: true
+end
 
 target 'NetworkingApi.Converters' do
   project '../RoxieMobile.NetworkingApi/Sources/Converters/NetworkingApi.Converters.xcodeproj'
@@ -33,7 +49,8 @@ target 'NetworkingApi.Helpers' do
 
   # Dependencies
   inject_shared_dependencies_2
-  pod_from 'SwiftCommons/Logging', '~> 1.1.0'
+  #pod_from 'SwiftCommons/Logging', '~> 1.1.0'
+  inject_shared_swift_commons
 end
 
 
@@ -41,7 +58,8 @@ target 'NetworkingApi.Http' do
   project '../RoxieMobile.NetworkingApi/Sources/Http/NetworkingApi.Http.xcodeproj'
 
   # Dependencies
-  pod_from 'SwiftCommons/Diagnostics', '~> 1.1.0'
+  #pod_from 'SwiftCommons/Diagnostics', '~> 1.1.0'
+  inject_shared_swift_commons
 end
 
 
