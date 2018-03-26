@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.name                  = 'NetworkingApiRest'
   s.summary               = 'An asynchronous REST API client that makes an access to a RESTful Web Services easier.'
-  s.version               = '1.1.2'
+  s.version               = '1.2.4'
 
   s.platform              = :ios
   s.ios.deployment_target = '9.0'
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'Alamofire', '~> 4.6.0'
   s.dependency 'NetworkingApiHelpers', s.version.to_s
   s.dependency 'NetworkingApiObjC', s.version.to_s
-  s.dependency 'SwiftCommons/Data', '~> 1.2.2'
+  s.dependency 'SwiftCommons/Data', '~> 1.2.4'
   s.dependency 'SwiftyJSON', '~> 4.0.0'
 end

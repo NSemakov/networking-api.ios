@@ -123,7 +123,7 @@ open class MimeType
     {
         var result = true
 
-        for ch in token.characters
+        for ch in token
         {
             if !Inner.Token.contains(ch)
             {
@@ -187,7 +187,7 @@ open class MimeType
     }
 
     func unquote(_ str: String) -> String {
-        return isQuotedString(str) ? str.substring(with: 1..<(str.count - 1)) : str
+        return isQuotedString(str) ? String(str.substring(with: 1..<(str.count - 1))) : str
     }
 
     /**

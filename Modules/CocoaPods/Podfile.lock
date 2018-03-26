@@ -4,139 +4,139 @@ PODS:
   - Alamofire-SCF/StaticCocoaFramework (4.6.0)
   - CryptoSwift (0.8.3)
   - Dispatch (2.0.4)
-  - SwiftCommons (1.2.2):
-    - SwiftCommons/Abstractions (= 1.2.2)
-    - SwiftCommons/Concurrent (= 1.2.2)
-    - SwiftCommons/Data (= 1.2.2)
-    - SwiftCommons/Diagnostics (= 1.2.2)
-    - SwiftCommons/Extensions (= 1.2.2)
-    - SwiftCommons/Lang (= 1.2.2)
-    - SwiftCommons/Logging (= 1.2.2)
-    - SwiftCommons/ObjC (= 1.2.2)
-  - SwiftCommons/Abstractions (1.2.2):
-    - SwiftCommonsAbstractions (= 1.2.2)
-  - SwiftCommons/Concurrent (1.2.2):
-    - SwiftCommonsConcurrent (= 1.2.2)
-  - SwiftCommons/Data (1.2.2):
-    - SwiftCommonsData (= 1.2.2)
-  - SwiftCommons/Diagnostics (1.2.2):
-    - SwiftCommonsDiagnostics (= 1.2.2)
-  - SwiftCommons/Extensions (1.2.2):
-    - SwiftCommonsExtensions (= 1.2.2)
-  - SwiftCommons/Lang (1.2.2):
-    - SwiftCommonsLang (= 1.2.2)
-  - SwiftCommons/Logging (1.2.2):
-    - SwiftCommonsLogging (= 1.2.2)
-  - SwiftCommons/ObjC (1.2.2):
-    - SwiftCommonsObjC (= 1.2.2)
-  - SwiftCommonsAbstractions (1.2.2)
-  - SwiftCommonsConcurrent (1.2.2):
+  - SwiftCommons (1.2.4):
+    - SwiftCommons/Abstractions (= 1.2.4)
+    - SwiftCommons/Concurrent (= 1.2.4)
+    - SwiftCommons/Data (= 1.2.4)
+    - SwiftCommons/Diagnostics (= 1.2.4)
+    - SwiftCommons/Extensions (= 1.2.4)
+    - SwiftCommons/Lang (= 1.2.4)
+    - SwiftCommons/Logging (= 1.2.4)
+    - SwiftCommons/ObjC (= 1.2.4)
+  - SwiftCommons/Abstractions (1.2.4):
+    - SwiftCommonsAbstractions (= 1.2.4)
+  - SwiftCommons/Concurrent (1.2.4):
+    - SwiftCommonsConcurrent (= 1.2.4)
+  - SwiftCommons/Data (1.2.4):
+    - SwiftCommonsData (= 1.2.4)
+  - SwiftCommons/Diagnostics (1.2.4):
+    - SwiftCommonsDiagnostics (= 1.2.4)
+  - SwiftCommons/Extensions (1.2.4):
+    - SwiftCommonsExtensions (= 1.2.4)
+  - SwiftCommons/Lang (1.2.4):
+    - SwiftCommonsLang (= 1.2.4)
+  - SwiftCommons/Logging (1.2.4):
+    - SwiftCommonsLogging (= 1.2.4)
+  - SwiftCommons/ObjC (1.2.4):
+    - SwiftCommonsObjC (= 1.2.4)
+  - SwiftCommonsAbstractions (1.2.4)
+  - SwiftCommonsConcurrent (1.2.4):
     - Dispatch (~> 2.0.4)
-    - SwiftCommonsObjC (= 1.2.2)
-  - SwiftCommonsData (1.2.2):
+    - SwiftCommonsObjC (= 1.2.4)
+  - SwiftCommonsData (1.2.4):
     - CryptoSwift (~> 0.8.3)
-    - SwiftCommonsDiagnostics (= 1.2.2)
-  - SwiftCommonsDiagnostics (1.2.2):
-    - SwiftCommonsConcurrent (= 1.2.2)
-    - SwiftCommonsExtensions (= 1.2.2)
-  - SwiftCommonsExtensions (1.2.2):
-    - SwiftCommonsAbstractions (= 1.2.2)
-    - SwiftCommonsLogging (= 1.2.2)
-  - SwiftCommonsLang (1.2.2)
-  - SwiftCommonsLogging (1.2.2):
-    - SwiftCommonsConcurrent (= 1.2.2)
-    - SwiftCommonsLang (= 1.2.2)
-  - SwiftCommonsObjC (1.2.2)
+    - SwiftCommonsDiagnostics (= 1.2.4)
+  - SwiftCommonsDiagnostics (1.2.4):
+    - SwiftCommonsConcurrent (= 1.2.4)
+    - SwiftCommonsExtensions (= 1.2.4)
+  - SwiftCommonsExtensions (1.2.4):
+    - SwiftCommonsAbstractions (= 1.2.4)
+    - SwiftCommonsLogging (= 1.2.4)
+  - SwiftCommonsLang (1.2.4)
+  - SwiftCommonsLogging (1.2.4):
+    - SwiftCommonsConcurrent (= 1.2.4)
+    - SwiftCommonsLang (= 1.2.4)
+  - SwiftCommonsObjC (1.2.4)
   - SwiftyJSON-SCF (4.0.0):
     - SwiftyJSON-SCF/StaticCocoaFramework (= 4.0.0)
   - SwiftyJSON-SCF/StaticCocoaFramework (4.0.0)
 
 DEPENDENCIES:
   - Alamofire-SCF (~> 4.6.0)
-  - SwiftCommons (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsAbstractions (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsConcurrent (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsData (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsDiagnostics (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsExtensions (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsLang (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsLogging (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
-  - SwiftCommonsObjC (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.2`)
+  - SwiftCommons (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsAbstractions (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsConcurrent (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsData (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsDiagnostics (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsExtensions (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsLang (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsLogging (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
+  - SwiftCommonsObjC (from `https://github.com/roxiemobile/swift-commons.ios`, tag `1.2.4`)
   - SwiftyJSON-SCF (~> 4.0.0)
 
 EXTERNAL SOURCES:
   SwiftCommons:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsAbstractions:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsConcurrent:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsData:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsDiagnostics:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsExtensions:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsLang:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsLogging:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsObjC:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
 
 CHECKOUT OPTIONS:
   SwiftCommons:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsAbstractions:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsConcurrent:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsData:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsDiagnostics:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsExtensions:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsLang:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsLogging:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
   SwiftCommonsObjC:
     :git: https://github.com/roxiemobile/swift-commons.ios
-    :tag: 1.2.2
+    :tag: 1.2.4
 
 SPEC CHECKSUMS:
   Alamofire-SCF: 925de2f1ce8f950b362ff9dc83675ab63c1eef32
   CryptoSwift: 033efc3523865d19cc6ab6612fa17a62613b5dfa
   Dispatch: 7ed89f2845001c4161ad83f43988b584fae8fff4
-  SwiftCommons: 2800fc0a0191a2af5044d63bc4bda64b29e0bfdb
-  SwiftCommonsAbstractions: 3e8ba4a38bb2579670a282335126552b9a3def35
-  SwiftCommonsConcurrent: 877afe4a791c31c38fc741234c117aca50ab7b68
-  SwiftCommonsData: 787e07412e5d5c66e5b12ff5c6616f9dc2b86e04
-  SwiftCommonsDiagnostics: b471c8eb4390633a133722d9e6f7d0b550eaf22d
-  SwiftCommonsExtensions: 03fb46e34644fc1c3c03eeb330f15e732f534526
-  SwiftCommonsLang: 5baff5558473c9bbaf57302ae6a8e8a81ef14d43
-  SwiftCommonsLogging: 57fdcfe92052458fc88c0d7ae0212554d58450cf
-  SwiftCommonsObjC: 966c6d2b5948b501e93ee251c5759c97416f05fa
+  SwiftCommons: 3bf788ce540188b4f169d1b5260ccaf7a6294907
+  SwiftCommonsAbstractions: f5e4e024c10be6eaa89e81ffd326fc1a83664de7
+  SwiftCommonsConcurrent: 339bf9ef90bbe994e2ac1de5711546d2c20f96b6
+  SwiftCommonsData: 78a3ef3fc3744a0f89b9ce07e878984370336d72
+  SwiftCommonsDiagnostics: e57ade50dad4e38d1e1f24cc27911aa928897ab9
+  SwiftCommonsExtensions: 5df1d6c15efa4694d1821769511eb2735c02314d
+  SwiftCommonsLang: b6ef69372d961f6f3a330965276fb19c69804ba4
+  SwiftCommonsLogging: b8cc75840a789017800e639fc75d8cff4d5cdc01
+  SwiftCommonsObjC: dbe1a6d5e57471b39457011d61ec051c33dc5606
   SwiftyJSON-SCF: 2bb4daea8dba562b375d2507ebb9dfca91d464ef
 
-PODFILE CHECKSUM: 3306fec55ac89ec5eabc252d4af143612fb63bba
+PODFILE CHECKSUM: b04c73d44a12cb650fa6bfa148a8e35995b4173b
 
 COCOAPODS: 1.4.0

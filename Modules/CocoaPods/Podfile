@@ -5,7 +5,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 
-TAG_SWIFTCOMMONS = '1.2.2'
+TAG_SWIFTCOMMONS = '1.2.4'
 
 workspace '../RoxieMobile.NetworkingApi/NetworkingApi.xcworkspace'
 
